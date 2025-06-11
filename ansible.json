@@ -23,6 +23,7 @@
         },
         {
             "matchPackageNames": [
+                "ansible.posix",
                 "community.general",
                 "community.crypto",
                 "community.digitalocean",
