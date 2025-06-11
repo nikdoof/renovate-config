@@ -1,0 +1,15 @@
+{
+    "regexManagers": [
+        {
+            "description": "Update Hugo version in Github Workflows",
+            "fileMatch": [
+                ".yaml$"
+            ],
+            "matchStrings": [
+                "HUGO_VERSION: (?<currentValue>.*?)"
+            ],
+            "depNameTemplate": "gohugoio/hugo",
+            "datasourceTemplate": "github-releases"
+        }
+    ],
+}

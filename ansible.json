@@ -1,0 +1,38 @@
+{
+    "packageRules": [
+        {
+            "matchPackageNames": [
+                "ansible"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true
+        },
+        {
+            "matchPackageNames": [
+                "ansible-lint"
+            ],
+            "matchUpdateTypes": [
+                "major",
+                "minor",
+                "patch"
+            ],
+            "automerge": true
+        },
+        {
+            "matchPackageNames": [
+                "community.general",
+                "community.crypto",
+                "community.digitalocean",
+                "gantsign.golang"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true
+        }
+    ]
+}

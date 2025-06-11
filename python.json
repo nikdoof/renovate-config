@@ -1,0 +1,32 @@
+{
+    "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true
+    },
+    "packageRules": [
+        {
+            "description": "Automerge Ruff updates",
+            "matchManagers": [
+                "poetry"
+            ],
+            "matchPackageNames": [
+                "ruff"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true
+        },
+        {
+            "description": "Automerge Mkdocs updates",
+            "matchManagers": [
+                "poetry"
+            ],
+            "matchPackageNames": [
+                "mkdocs-material"
+            ],
+            "automerge": true
+        }
+    ]
+}
