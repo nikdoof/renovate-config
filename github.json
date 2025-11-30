@@ -21,7 +21,8 @@
                 "github-actions"
             ],
             "matchPackagePatterns": [
-                "actions/checkout.*"
+                "actions/checkout.*",
+                "actions/setup-python.*"
 
             ],
             "automerge": true
